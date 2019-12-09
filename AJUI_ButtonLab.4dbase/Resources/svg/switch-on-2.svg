@@ -1,0 +1,41 @@
+<svg width="101px" height="48px" viewBox="0 0 105 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="101" height="48" rx="24"></rect>
+        <filter x="-3.0%" y="-6.2%" width="105.9%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.101070804 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="63.4475296%" id="linearGradient-3">
+            <stop stop-color="#8A8A8A" offset="0%"></stop>
+            <stop stop-color="#ADADAD" offset="17.2402872%"></stop>
+            <stop stop-color="#F9F9F9" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-4" font-family="Avenir-Black, Avenir" font-size="22" font-weight="700">
+            <tspan x="53.383" y="31">ON</tspan>
+        </text>
+        <filter x="-1.4%" y="-1.7%" width="102.7%" height="103.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.474486451 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-1.4%" y="-1.7%" width="102.7%" height="103.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.474486451 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="switch-on-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <use fill="#417505" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+        </g>
+        <circle id="Oval" stroke="#FFFFFF" fill="url(#linearGradient-3)" cx="26" cy="24" r="20"></circle>
+        <g id="ON" fill="#32530D">
+            <use fill-rule="evenodd" xlink:href="#text-4"></use>
+            <use fill-opacity="1" filter="url(#filter-5)" xlink:href="#text-4"></use>
+            <use fill-opacity="1" filter="url(#filter-6)" xlink:href="#text-4"></use>
+        </g>
+    </g>
+</svg>

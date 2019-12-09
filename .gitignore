@@ -1,0 +1,15 @@
+/HDI*
+/*.docx
+*.4darchive
+userPreferences.*
+*BuildApp*
+*.4DD
+*.4DIndx
+*.journal
+*/Preferences/*
+Cache.xml
+Conversion*.json
+LogStyleSheet.xsl
+**/DerivedData/**
+!**/DerivedData/*.json
+data.match
