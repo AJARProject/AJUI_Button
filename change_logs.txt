@@ -44,10 +44,9 @@ Component :
 - Member function name modified :
   - ColorToReplaceSVG - > ColorToReplace
   - ReplacingColorSVG - > ReplacingColor
-- Check if the callback existe and ask to create it now
+- Check if the callback exists and ask to create it otherwise
 - V18 version
 
 Lab :
 - New file system to save/load the templates
 - Updated to use the new features of the component
-- V18 version
