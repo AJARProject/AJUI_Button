@@ -45,7 +45,6 @@ Component :
   - ColorToReplaceSVG - > ColorToReplace
   - ReplacingColorSVG - > ReplacingColor
 - Check if the callback exists and ask to create it otherwise
-- V18 version
 
 Lab :
 - New file system to save/load the templates
