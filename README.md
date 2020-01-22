@@ -39,7 +39,7 @@ alt="AJUI_Button Example" width="480" height="360" border="10" /></a>
 
 ### Version
 
-1.2.0-Build157 // Mon, 02 Dec 2019 15:15:47 GMT
+1.3.0-Build164  // Tue, 21 Jan 2020 08:21:45 GMT
 
 ### Questions?
 
