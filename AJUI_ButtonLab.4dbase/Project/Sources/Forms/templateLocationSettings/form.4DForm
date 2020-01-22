@@ -1,0 +1,393 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "Rectangle",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 9,
+					"left": 30,
+					"width": 496,
+					"height": 29,
+					"stroke": "#800000",
+					"textAlign": "left",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "Templates location Preferences"
+				},
+				"path_global": {
+					"type": "input",
+					"top": 55,
+					"left": 251,
+					"width": 255,
+					"height": 61,
+					"dataSource": "Form:C1466.path_global",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"path_shared": {
+					"type": "input",
+					"top": 201,
+					"left": 251,
+					"width": 255,
+					"height": 61,
+					"dataSource": "Form:C1466.path_shared",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"path_personal": {
+					"type": "input",
+					"top": 128,
+					"left": 251,
+					"width": 255,
+					"height": 61,
+					"dataSource": "Form:C1466.path_personal",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btnValidPref": {
+					"type": "input",
+					"top": 277,
+					"left": 421,
+					"width": 85,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnValidPref.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnPrefGlobal": {
+					"type": "input",
+					"top": 55,
+					"left": 30,
+					"width": 119,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnPrefGlobal.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnPrefShared": {
+					"type": "input",
+					"top": 201,
+					"left": 30,
+					"width": 119,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnPrefShared.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnPrefPersonal": {
+					"type": "input",
+					"top": 128,
+					"left": 30,
+					"width": 119,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnPrefPersonal.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnResetGlobal": {
+					"type": "input",
+					"top": 55,
+					"left": 203,
+					"width": 30,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnResetGlobal.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnResetShared": {
+					"type": "input",
+					"top": 201,
+					"left": 203,
+					"width": 30,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnResetShared.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnResetPersonal": {
+					"type": "input",
+					"top": 128,
+					"left": 203,
+					"width": 30,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnResetPersonal.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnOpenGlobal": {
+					"type": "input",
+					"top": 55,
+					"left": 163,
+					"width": 30,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnOpenGlobal.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnOpenShared": {
+					"type": "input",
+					"top": 201,
+					"left": 163,
+					"width": 30,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnOpenShared.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btnOpenPersonal": {
+					"type": "input",
+					"top": 128,
+					"left": 163,
+					"width": 30,
+					"height": 30,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnOpenPersonal.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"AJUI_Tip_sf": {
+					"type": "subform",
+					"top": 425,
+					"left": 287,
+					"width": 118,
+					"height": 138,
+					"detailForm": "AJUI_Tip_container",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 298,
+					"left": 506,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF2600"
+				},
+				"infoTip": {
+					"type": "picture",
+					"top": 283,
+					"left": 30,
+					"width": 20,
+					"height": 20,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/svg/circle-i-fill_none.svg"
+				},
+				"btnCancelPref": {
+					"type": "input",
+					"top": 277,
+					"left": 321,
+					"width": 85,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnCancelPref.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				}
+			}
+		}
+	]
+}

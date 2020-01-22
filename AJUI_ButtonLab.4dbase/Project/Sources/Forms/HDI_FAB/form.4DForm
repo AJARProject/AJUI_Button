@@ -1,0 +1,667 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize1",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Barre #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 738,
+					"height": 810,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 740,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 714,
+					"left": 17,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 714,
+					"left": 12,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize1": {
+					"type": "rectangle",
+					"top": 790,
+					"left": 718,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 786,
+					"left": 487,
+					"width": 242,
+					"height": 17,
+					"dataSource": "AJUI_Btn_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 10,
+					"left": 0,
+					"width": 740,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Title": {
+					"type": "text",
+					"top": 74,
+					"left": 0,
+					"width": 740,
+					"height": 30,
+					"stroke": "#3498DB",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI_Button"
+				},
+				"Subtitle": {
+					"type": "text",
+					"top": 105,
+					"left": 0,
+					"width": 740,
+					"height": 22,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontStyle": "italic",
+					"text": "Buttons example with FAB (Floating Action Button)"
+				}
+			}
+		},
+		{
+			"objects": {
+				"box_display": {
+					"type": "rectangle",
+					"top": 200,
+					"left": 14,
+					"width": 710,
+					"height": 320,
+					"fill": "transparent",
+					"strokeDashArray": "1 1"
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"top": 524,
+					"left": 304,
+					"width": 420,
+					"height": 168,
+					"text": "FAB options :"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 131,
+					"left": 95,
+					"width": 547,
+					"height": 97,
+					"textAlign": "center",
+					"text": "Use the TAB button to navigate between the buttons. The button with focus is indicated by a 3 pixels border line. Press Space keyboard to activate the button having the focus. \rThe text box below is provided to test if the Space Keyboard is available outside of the context of the buttons.\r"
+				},
+				"clickButton": {
+					"type": "button",
+					"top": 866,
+					"left": 264,
+					"width": 203,
+					"height": 32,
+					"text": "simulates clickButton",
+					"focusable": false,
+					"method": "ObjectMethods/clickButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"text_test": {
+					"type": "input",
+					"top": 707,
+					"left": 141,
+					"width": 583,
+					"height": 65,
+					"textAlign": "center",
+					"styledText": true,
+					"placeholder": "put any text here",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btns_fab": {
+					"type": "dropdown",
+					"top": 541,
+					"left": 644,
+					"width": 70,
+					"height": 23,
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"choiceList": [
+						"3",
+						"4",
+						"5",
+						"6"
+					],
+					"method": "ObjectMethods/btns_fab.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"startAngle": {
+					"type": "input",
+					"top": 569,
+					"left": 644,
+					"width": 70,
+					"height": 17,
+					"dataSource": "Form:C1466.primary_btn.btn.fab.startAngle",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"min": 0,
+					"max": 360,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/startAngle.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"angleToTravel": {
+					"type": "input",
+					"top": 595,
+					"left": 644,
+					"width": 70,
+					"height": 17,
+					"dataSource": "Form:C1466.primary_btn.btn.fab.angleToTravel",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"min": 0,
+					"max": 360,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/angleToTravel.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 569,
+					"left": 327,
+					"width": 292,
+					"height": 17,
+					"text": "Start position in degrees "
+				},
+				"Text2": {
+					"type": "text",
+					"top": 595,
+					"left": 327,
+					"width": 292,
+					"height": 17,
+					"text": "Angle to travel in degrees"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 544,
+					"left": 327,
+					"width": 303,
+					"height": 17,
+					"text": "Number of secondary buttons (between 3 and 6)"
+				},
+				"radius": {
+					"type": "input",
+					"top": 621,
+					"left": 644,
+					"width": 70,
+					"height": 17,
+					"dataSource": "Form:C1466.primary_btn.btn.fab.radius",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"min": 0,
+					"max": 180,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/radius.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 621,
+					"left": 327,
+					"width": 292,
+					"height": 17,
+					"text": "Radius (in pixels)"
+				},
+				"btn_1": {
+					"type": "input",
+					"top": 918,
+					"left": 194,
+					"width": 50,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_1.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_2": {
+					"type": "input",
+					"top": 918,
+					"left": 252,
+					"width": 50,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_2.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_3": {
+					"type": "input",
+					"top": 918,
+					"left": 312,
+					"width": 50,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_3.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_4": {
+					"type": "input",
+					"top": 918,
+					"left": 373,
+					"width": 50,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_4.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_5": {
+					"type": "input",
+					"top": 918,
+					"left": 431,
+					"width": 50,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_5.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_6": {
+					"type": "input",
+					"top": 918,
+					"left": 493,
+					"width": 50,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_6.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"primary_btn": {
+					"type": "input",
+					"top": 444,
+					"left": 343,
+					"width": 60,
+					"height": 60,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/primary_btn.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 525,
+					"left": 154,
+					"width": 137,
+					"height": 167,
+					"text": "Main positions :"
+				},
+				"top-left": {
+					"type": "radio",
+					"top": 554,
+					"left": 166,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/top-left.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"left": {
+					"type": "radio",
+					"top": 603,
+					"left": 166,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/left.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bottom-left": {
+					"type": "radio",
+					"top": 653,
+					"left": 166,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/bottom-left.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"top": {
+					"type": "radio",
+					"top": 554,
+					"left": 211,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/top.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"top-right": {
+					"type": "radio",
+					"top": 554,
+					"left": 256,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/top-right.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"center": {
+					"type": "radio",
+					"top": 603,
+					"left": 211,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/center.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"right": {
+					"type": "radio",
+					"top": 603,
+					"left": 256,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/right.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bottom": {
+					"type": "radio",
+					"top": 653,
+					"left": 211,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/bottom.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"bottom-right": {
+					"type": "radio",
+					"top": 653,
+					"left": 256,
+					"width": 25,
+					"height": 24,
+					"focusable": false,
+					"radioGroup": "Groupe7",
+					"method": "ObjectMethods/bottom-right.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 647,
+					"left": 327,
+					"width": 292,
+					"height": 17,
+					"text": "Clockwise"
+				},
+				"clockwise": {
+					"type": "dropdown",
+					"top": 644,
+					"left": 644,
+					"width": 70,
+					"height": 23,
+					"focusable": false,
+					"choiceList": [
+						"True",
+						"False"
+					],
+					"method": "ObjectMethods/clockwise.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 671,
+					"left": 327,
+					"width": 292,
+					"height": 17,
+					"text": "Animation"
+				},
+				"animation": {
+					"type": "dropdown",
+					"top": 668,
+					"left": 644,
+					"width": 70,
+					"height": 23,
+					"focusable": false,
+					"choiceList": [
+						"True",
+						"False"
+					],
+					"method": "ObjectMethods/animation.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Groupe7": [
+				"top-left",
+				"left",
+				"bottom-left",
+				"top",
+				"top-right",
+				"center",
+				"right",
+				"bottom",
+				"bottom-right"
+			]
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

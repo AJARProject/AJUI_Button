@@ -1,0 +1,311 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize1",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Barre #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 738,
+					"height": 530,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 740,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 434,
+					"left": 17,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 434,
+					"left": 12,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize1": {
+					"type": "rectangle",
+					"top": 510,
+					"left": 718,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 506,
+					"left": 481,
+					"width": 241,
+					"height": 17,
+					"dataSource": "AJUI_Btn_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 10,
+					"left": 0,
+					"width": 740,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Title": {
+					"type": "text",
+					"top": 74,
+					"left": 0,
+					"width": 740,
+					"height": 30,
+					"stroke": "#3498DB",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI_Button"
+				},
+				"Subtitle": {
+					"type": "text",
+					"top": 105,
+					"left": 0,
+					"width": 740,
+					"height": 22,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontStyle": "italic",
+					"text": "Buttons example with Focus"
+				}
+			}
+		},
+		{
+			"objects": {
+				"btn_1": {
+					"type": "input",
+					"top": 185,
+					"left": 80,
+					"width": 150,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_1.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_2": {
+					"type": "input",
+					"top": 185,
+					"left": 295,
+					"width": 150,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_2.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_3": {
+					"type": "input",
+					"top": 185,
+					"left": 510,
+					"width": 150,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_3.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_4": {
+					"type": "input",
+					"top": 272,
+					"left": 80,
+					"width": 150,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_4.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_5": {
+					"type": "input",
+					"top": 272,
+					"left": 295,
+					"width": 150,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_5.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_6": {
+					"type": "input",
+					"top": 272,
+					"left": 510,
+					"width": 150,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/btn_6.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 358,
+					"left": 184,
+					"width": 373,
+					"height": 76,
+					"textAlign": "center",
+					"fontFamily": "Arial",
+					"fontSize": 13,
+					"text": "Use the TAB button to navigate between the buttons. The button with focus is indicated by a 3 pixels border line. Press Space keyboard to activate the button having the focus. \rThe text box below is provided to test if the Space Keyboard is available outside of the context of the buttons.\r"
+				},
+				"clickButton": {
+					"type": "button",
+					"top": 550,
+					"left": 258,
+					"width": 203,
+					"height": 32,
+					"text": "simulates clickButton",
+					"focusable": false,
+					"method": "ObjectMethods/clickButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"text_test": {
+					"type": "input",
+					"top": 464,
+					"left": 213,
+					"width": 315,
+					"height": 49,
+					"textAlign": "center",
+					"styledText": true,
+					"placeholder": "put any text here",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

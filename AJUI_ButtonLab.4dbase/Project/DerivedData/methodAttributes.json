@@ -1,0 +1,265 @@
+﻿{
+	"methods": {
+		"btn_1_onClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.245Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"FAB_enableObject": {
+			"timeStamp": "2020-01-21T08:23:57.247Z"
+		},
+		"pictfullPath": {
+			"timeStamp": "2020-01-21T08:23:57.238Z"
+		},
+		"AJUI_Btn_InfoLab": {
+			"timeStamp": "2020-01-21T12:35:37.204Z"
+		},
+		"lab2Click_cb": {
+			"timeStamp": "2020-01-21T08:23:57.202Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"tip_templatesButtons": {
+			"timeStamp": "2020-01-21T08:23:57.229Z"
+		},
+		"btn_6_onClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.243Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"HDI_DressYourBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.194Z"
+		},
+		"templatesButtonsEnable": {
+			"timeStamp": "2020-01-21T08:23:57.229Z"
+		},
+		"setArrayColor": {
+			"timeStamp": "2020-01-21T08:23:57.241Z"
+		},
+		"formulaSetValue": {
+			"timeStamp": "2020-01-21T08:23:57.201Z"
+		},
+		"TLoc_TipSubform_init": {
+			"timeStamp": "2020-01-21T08:23:57.233Z"
+		},
+		"FAB_setMainPosition": {
+			"timeStamp": "2020-01-21T08:23:57.246Z"
+		},
+		"labClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.202Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"Quit_lab": {
+			"timeStamp": "2020-01-21T08:23:57.248Z"
+		},
+		"Lab_SetBgColorOther": {
+			"timeStamp": "2020-01-21T08:23:57.221Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"HDI_TextClippedBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.197Z"
+		},
+		"setPropertyStyle": {
+			"timeStamp": "2020-01-21T08:23:57.249Z"
+		},
+		"getTLocIcon": {
+			"timeStamp": "2020-01-21T08:23:57.235Z"
+		},
+		"getTlocPath": {
+			"timeStamp": "2020-01-21T08:23:57.235Z"
+		},
+		"FAB_init_btn": {
+			"timeStamp": "2020-01-21T08:23:57.242Z"
+		},
+		"TLoc_closePref": {
+			"timeStamp": "2020-01-21T08:23:57.233Z"
+		},
+		"Lab_SetCompositeBtn": {
+			"timeStamp": "2020-01-21T08:23:57.226Z"
+		},
+		"btn_2_onClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.245Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"Lab_SetBgColorWhite": {
+			"timeStamp": "2020-01-21T08:23:57.220Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"formulasGetValues": {
+			"timeStamp": "2020-01-21T08:23:57.200Z"
+		},
+		"HDI_CompositePositionBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.197Z"
+		},
+		"FAB_refreshCollection": {
+			"timeStamp": "2020-01-21T08:23:57.246Z"
+		},
+		"btn_5_onClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.243Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"closeNewNameTip": {
+			"timeStamp": "2020-01-21T08:23:57.225Z"
+		},
+		"btn_4_onClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.244Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"Lab_call": {
+			"timeStamp": "2020-01-21T08:23:57.200Z"
+		},
+		"redrawBtn": {
+			"timeStamp": "2020-01-21T08:23:57.199Z"
+		},
+		"btn_3_onClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.244Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"refreshPropertiesStyle": {
+			"timeStamp": "2020-01-21T08:23:57.250Z"
+		},
+		"HDI_CallbackBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.195Z"
+		},
+		"TLoc_btn_pref_init": {
+			"timeStamp": "2020-01-21T08:23:57.234Z"
+		},
+		"calcLuminance": {
+			"timeStamp": "2020-01-21T08:23:57.239Z"
+		},
+		"addOne_cb": {
+			"timeStamp": "2020-01-21T08:23:57.191Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"formulasSetValues": {
+			"timeStamp": "2020-01-21T08:23:57.201Z"
+		},
+		"setPickerColor": {
+			"timeStamp": "2020-01-22T08:09:30.925Z"
+		},
+		"newTemplateButton": {
+			"timeStamp": "2020-01-21T08:23:57.231Z"
+		},
+		"AJUI_Tip_getSubFormSize": {
+			"timeStamp": "2020-01-21T08:23:57.223Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"onClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.194Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"reloadTemplateList": {
+			"timeStamp": "2020-01-21T08:23:57.238Z"
+		},
+		"getLuminance": {
+			"timeStamp": "2020-01-21T08:23:57.240Z"
+		},
+		"loadPropertiesCollections": {
+			"timeStamp": "2020-01-21T08:23:57.199Z"
+		},
+		"minusOne_cb": {
+			"timeStamp": "2020-01-21T08:23:57.192Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"HDI_DisableBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.193Z"
+		},
+		"closeSaveTempTip": {
+			"timeStamp": "2020-01-21T08:23:57.237Z"
+		},
+		"hexa2dec": {
+			"timeStamp": "2020-01-21T08:23:57.241Z"
+		},
+		"alertDeleted": {
+			"timeStamp": "2020-01-21T08:23:57.226Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"Lab_setBgColor_btn": {
+			"timeStamp": "2020-01-21T08:23:57.222Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"HDI_Focus_btn": {
+			"timeStamp": "2020-01-21T08:23:57.239Z"
+		},
+		"btn_subform": {
+			"timeStamp": "2020-01-21T08:23:57.232Z"
+		},
+		"Tip_SaveTempSubform": {
+			"timeStamp": "2020-01-21T08:23:57.236Z"
+		},
+		"refreshArrayColor": {
+			"timeStamp": "2020-01-21T08:23:57.240Z"
+		},
+		"TLoc_loadPathSettings": {
+			"timeStamp": "2020-01-21T08:23:57.235Z"
+		},
+		"tip_bgSelectBgColorOther": {
+			"timeStamp": "2020-01-21T08:23:57.222Z"
+		},
+		"HDI_FocusBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.238Z"
+		},
+		"Lab_centerButton": {
+			"timeStamp": "2020-01-21T08:23:57.231Z"
+		},
+		"HDI_LinkedCompositeBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.198Z"
+		},
+		"onDoubleClick_cb": {
+			"timeStamp": "2020-01-21T08:23:57.195Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"HDI_ToggleBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.232Z"
+		},
+		"HDI_FAB_call": {
+			"timeStamp": "2020-01-21T08:23:57.248Z"
+		},
+		"bannerProtectRibbon": {
+			"timeStamp": "2020-01-21T08:23:57.230Z"
+		},
+		"copyPictToFolderTemp": {
+			"timeStamp": "2020-01-21T08:23:57.237Z"
+		},
+		"Tip_NewButtonName": {
+			"timeStamp": "2020-01-21T08:23:57.224Z"
+		},
+		"refresh": {
+			"timeStamp": "2020-01-21T08:23:57.203Z"
+		},
+		"HDI_PictureBtn_call": {
+			"timeStamp": "2020-01-21T08:23:57.196Z"
+		}
+	}
+}

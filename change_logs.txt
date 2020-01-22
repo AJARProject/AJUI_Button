@@ -49,3 +49,14 @@ Component :
 Lab :
 - New file system to save/load the templates
 - Updated to use the new features of the component
+
+V1.3.0 - GC - 20.11.2020
+Component :
+ - V18
+ - New feature : FAB (floating action button) with/without animation
+ - Manuals updated
+Lab :
+ - v18
+ - listbox properties edited in bold
+ - HDI FAB
+ - Lab manuals updated

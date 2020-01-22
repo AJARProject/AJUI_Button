@@ -1,0 +1,148 @@
+﻿{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Barre #1",
+			"items": [
+				{
+					"link": 32001
+				},
+				{
+					"link": 32002
+				},
+				{
+					"link": 32003
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 32001,
+			"title": ":xliff:CommonMenuFile",
+			"items": [
+				{
+					"title": "HDI Callback Button",
+					"method": "HDI_CallbackBtn_call"
+				},
+				{
+					"title": "HDI Composite Button",
+					"method": "HDI_CompositePositionBtn_call"
+				},
+				{
+					"title": "HDI Disable Button",
+					"method": "HDI_DisableBtn_call"
+				},
+				{
+					"title": "HDI Dress Your Button",
+					"method": "HDI_DressYourBtn_call"
+				},
+				{
+					"title": "HDI_FAB",
+					"method": "HDI_FAB_call"
+				},
+				{
+					"title": "HDI Linked Composite Button",
+					"method": "HDI_LinkedCompositeBtn_call"
+				},
+				{
+					"title": "HDI On Focus",
+					"method": "HDI_FocusBtn_call",
+					"startNewProcess": true
+				},
+				{
+					"title": "HDI Picture Button",
+					"method": "HDI_PictureBtn_call"
+				},
+				{
+					"title": "HDI Text Clipped Button",
+					"method": "HDI_TextClippedBtn_call"
+				},
+				{
+					"title": "HDI Toggle button",
+					"method": "HDI_ToggleBtn_call"
+				},
+				{
+					"title": "Ligne 2",
+					"isSeparator": true
+				},
+				{
+					"title": "AJUI Button Lab",
+					"method": "Lab_call"
+				},
+				{
+					"title": "Ligne 1",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemQuit",
+					"method": "Quit_lab",
+					"shortcutAccel": true,
+					"shortcutKey": "Q"
+				}
+			]
+		},
+		{
+			"link": 32002,
+			"title": ":xliff:CommonMenuEdit",
+			"items": [
+				{
+					"title": ":xliff:CommonMenuItemUndo",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemCut",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":xliff:CommonMenuItemCopy",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": ":xliff:CommonMenuItemPaste",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":xliff:CommonMenuItemClear",
+					"action": "clear"
+				},
+				{
+					"title": ":xliff:CommonMenuItemSelectAll",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemShowClipboard",
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 32003,
+			"title": ":xliff:CommonMenuMode",
+			"items": [
+				{
+					"title": ":xliff:CommonMenuItemDesign",
+					"action": "design"
+				}
+			]
+		}
+	]
+}

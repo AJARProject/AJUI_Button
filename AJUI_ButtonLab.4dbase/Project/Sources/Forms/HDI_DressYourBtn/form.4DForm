@@ -1,0 +1,476 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Barre #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 738,
+					"height": 803,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 738,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 706,
+					"left": 20,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 706,
+					"left": 15,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 782,
+					"left": 716,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 778,
+					"left": 486,
+					"width": 243,
+					"height": 17,
+					"dataSource": "AJUI_Btn_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 10,
+					"left": 0,
+					"width": 738,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Title": {
+					"type": "text",
+					"top": 74,
+					"left": 0,
+					"width": 738,
+					"height": 30,
+					"stroke": "#3498DB",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI_Button"
+				},
+				"Subtitle": {
+					"type": "text",
+					"top": 105,
+					"left": 0,
+					"width": 738,
+					"height": 22,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontStyle": "italic",
+					"text": "Various button examples"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"top": 142,
+					"left": 29,
+					"width": 293,
+					"height": 20,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"text": "Dress your button with some states"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 282,
+					"left": 29,
+					"width": 224,
+					"height": 20,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"text": "Add some fantasies"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 422,
+					"left": 29,
+					"width": 224,
+					"height": 20,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"text": "Do you like curves ?"
+				},
+				"btn1": {
+					"type": "input",
+					"top": 182,
+					"left": 29,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn1.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn2": {
+					"type": "input",
+					"top": 182,
+					"left": 289,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn2.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn3": {
+					"type": "input",
+					"top": 182,
+					"left": 549,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn3.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn4": {
+					"type": "input",
+					"top": 322,
+					"left": 29,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn4.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn5": {
+					"type": "input",
+					"top": 322,
+					"left": 289,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn5.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn6": {
+					"type": "input",
+					"top": 322,
+					"left": 549,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn6.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn7": {
+					"type": "input",
+					"top": 462,
+					"left": 29,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn7.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn8": {
+					"type": "input",
+					"top": 462,
+					"left": 289,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn8.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn9": {
+					"type": "input",
+					"top": 462,
+					"left": 549,
+					"width": 147,
+					"height": 49,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn9.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 531,
+					"left": 28,
+					"width": 501,
+					"height": 20,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"text": "Or you feel better with circles button ?"
+				},
+				"btn10": {
+					"type": "input",
+					"top": 571,
+					"left": 40,
+					"width": 120,
+					"height": 120,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn10.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn11": {
+					"type": "input",
+					"top": 571,
+					"left": 300,
+					"width": 120,
+					"height": 120,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn11.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn12": {
+					"type": "input",
+					"top": 571,
+					"left": 560,
+					"width": 120,
+					"height": 120,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn12.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

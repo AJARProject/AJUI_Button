@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="AJUI_ButtonLab" uuid="FD88A111B60B4D26900FEECDCF8830A0" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="AJUI_ButtonLab" structure_file_name="AJUI_ButtonLab" data_file_path=":AJUI_ButtonLab.4DD">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>
