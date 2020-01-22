@@ -60,3 +60,4 @@ Lab :
  - listbox properties edited in bold
  - HDI FAB
  - Lab manuals updated
+ - Set default value for picker color
