@@ -417,7 +417,9 @@
 					"left": 0,
 					"width": 581,
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"height": 0,
+					"startPoint": "topLeft"
 				},
 				"Line3": {
 					"type": "line",
@@ -425,7 +427,9 @@
 					"left": 0,
 					"width": 581,
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"height": 0,
+					"startPoint": "topLeft"
 				},
 				"Line4": {
 					"type": "line",
@@ -433,7 +437,9 @@
 					"left": 582,
 					"height": 906,
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"width": 0,
+					"startPoint": "topLeft"
 				},
 				"Line6": {
 					"type": "line",
@@ -441,7 +447,9 @@
 					"left": 0,
 					"width": 1014,
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"height": 0,
+					"startPoint": "topLeft"
 				},
 				"bgz_AJUI_Btn_info_lab": {
 					"type": "input",
@@ -823,7 +831,9 @@
 					"width": 431,
 					"sizingX": "grow",
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"height": 0,
+					"startPoint": "topLeft"
 				},
 				"bgz_previewStates": {
 					"type": "text",
@@ -1062,12 +1072,14 @@
 					"width": 431,
 					"sizingX": "grow",
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"height": 0,
+					"startPoint": "topLeft"
 				},
 				"AJUI_Banner": {
 					"type": "input",
-					"top": 884,
-					"left": 110,
+					"top": 1018,
+					"left": 93,
 					"width": 215,
 					"height": 129,
 					"visibility": "hidden",
@@ -1142,5 +1154,9 @@
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }
