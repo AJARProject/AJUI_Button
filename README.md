@@ -6,7 +6,7 @@ A button is created via the language and will be displayed in a picture element 
 
 ### Documentation
 
-You can find a PDF with a complete documentation on how to use the component.
+[Wiki AJUI_Button](https://github.com/AJARProject/AJUI_Button/wiki)
 
 **Example**
 
