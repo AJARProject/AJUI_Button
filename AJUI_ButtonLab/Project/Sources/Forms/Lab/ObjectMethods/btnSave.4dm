@@ -25,7 +25,15 @@ Case of
 		
 	: (Form event code:C388=On Clicked:K2:4) & (Macintosh option down:C545)  // alt+clic (Mac) OR Option+clic (Windows)
 		
-		  // to do
+		If (OBJECT Get enabled:C1079(*;"btnSave"))
+			Form:C1466.tipSaveTemp.Hide()
+			
+			templatesButtonsEnable (False:C215)
+			C_POINTER:C301($templates_ptr)
+			$templates_ptr:=OBJECT Get pointer:C1124(Object named:K67:5;"templates_list")
+			Form:C1466.tip_sf_details:=New object:C1471("templateLocPref";OB Copy:C1225(Form:C1466.templateLocPref);"currentTemplatePath";getTlocPath (getTLocIcon ($templates_ptr->{$templates_ptr->}));"tempIcon";getTLocIcon ($templates_ptr->{$templates_ptr->}))
+			closeSaveTempTip (True:C214)
+		End if 
 		
 	: (Form event code:C388=On Clicked:K2:4)
 		
@@ -35,7 +43,7 @@ Case of
 			templatesButtonsEnable (False:C215)
 			C_POINTER:C301($templates_ptr)
 			$templates_ptr:=OBJECT Get pointer:C1124(Object named:K67:5;"templates_list")
-			Form:C1466.tip_sf_details:=New object:C1471("templateLocPref";OB Copy:C1225(Form:C1466.templateLocPref);"currentTemplatePath";getTlocPath (getTLocIcon ($templates_ptr->{$templates_ptr->})))
+			Form:C1466.tip_sf_details:=New object:C1471("templateLocPref";OB Copy:C1225(Form:C1466.templateLocPref);"currentTemplatePath";getTlocPath (getTLocIcon ($templates_ptr->{$templates_ptr->}));"tempIcon";getTLocIcon ($templates_ptr->{$templates_ptr->}))
 			Form:C1466.tipSaveTemplateSubform.TargetName("btnSave")
 			Form:C1466.tipSaveTemplateSubform.Show()
 			

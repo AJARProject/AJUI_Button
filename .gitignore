@@ -9,6 +9,8 @@ LogStyleSheet.xsl
 **/DerivedData/**
 !**/DerivedData/*.json
 data.match
+userPreferences.*
+
 
 
 # 4D project architecture

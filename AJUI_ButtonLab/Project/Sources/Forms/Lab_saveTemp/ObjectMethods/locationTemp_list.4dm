@@ -22,8 +22,18 @@ Case of
 			End if 
 		End if 
 		
-		$locationTemp_ptr->:=1
-		Form:C1466.tempIcon:=getTLocIcon 
+		
+		Case of 
+			: (Form:C1466.tempIcon=" (G)")
+				$locationTemp_ptr->:=1
+				
+			: (Form:C1466.tempIcon=" (P)")
+				$locationTemp_ptr->:=2
+				
+			: (Form:C1466.tempIcon=" (S)")
+				$locationTemp_ptr->:=3
+				
+		End case 
 		
 		
 		

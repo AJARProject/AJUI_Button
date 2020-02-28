@@ -1,265 +1,265 @@
 ﻿{
 	"methods": {
 		"btn_1_onClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.245Z",
+			"timeStamp": "2020-02-14T07:56:39.170Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"FAB_enableObject": {
-			"timeStamp": "2020-01-21T08:23:57.247Z"
+			"timeStamp": "2020-02-14T07:56:39.182Z"
 		},
 		"pictfullPath": {
-			"timeStamp": "2020-01-21T08:23:57.238Z"
+			"timeStamp": "2020-02-14T07:56:39.161Z"
 		},
 		"AJUI_Btn_InfoLab": {
-			"timeStamp": "2020-01-21T12:35:37.204Z"
+			"timeStamp": "2020-02-28T08:30:48.218Z"
 		},
 		"lab2Click_cb": {
-			"timeStamp": "2020-01-21T08:23:57.202Z",
+			"timeStamp": "2020-02-14T07:56:39.164Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"tip_templatesButtons": {
-			"timeStamp": "2020-01-21T08:23:57.229Z"
+			"timeStamp": "2020-02-14T07:56:39.157Z"
 		},
 		"btn_6_onClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.243Z",
+			"timeStamp": "2020-02-14T07:56:39.169Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"HDI_DressYourBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.194Z"
+			"timeStamp": "2020-02-14T07:56:39.179Z"
 		},
 		"templatesButtonsEnable": {
-			"timeStamp": "2020-01-21T08:23:57.229Z"
+			"timeStamp": "2020-02-14T07:56:39.158Z"
 		},
 		"setArrayColor": {
-			"timeStamp": "2020-01-21T08:23:57.241Z"
+			"timeStamp": "2020-02-14T07:56:39.159Z"
 		},
 		"formulaSetValue": {
-			"timeStamp": "2020-01-21T08:23:57.201Z"
+			"timeStamp": "2020-02-14T07:56:39.166Z"
 		},
 		"TLoc_TipSubform_init": {
-			"timeStamp": "2020-01-21T08:23:57.233Z"
+			"timeStamp": "2020-02-14T07:56:39.173Z"
 		},
 		"FAB_setMainPosition": {
-			"timeStamp": "2020-01-21T08:23:57.246Z"
+			"timeStamp": "2020-02-14T07:56:39.181Z"
 		},
 		"labClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.202Z",
+			"timeStamp": "2020-02-14T07:56:39.163Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"Quit_lab": {
-			"timeStamp": "2020-01-21T08:23:57.248Z"
+			"timeStamp": "2020-02-14T07:56:39.174Z"
 		},
 		"Lab_SetBgColorOther": {
-			"timeStamp": "2020-01-21T08:23:57.221Z",
+			"timeStamp": "2020-02-14T07:56:39.176Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"HDI_TextClippedBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.197Z"
+			"timeStamp": "2020-02-14T07:56:39.177Z"
 		},
 		"setPropertyStyle": {
-			"timeStamp": "2020-01-21T08:23:57.249Z"
+			"timeStamp": "2020-02-14T07:56:39.158Z"
 		},
 		"getTLocIcon": {
-			"timeStamp": "2020-01-21T08:23:57.235Z"
+			"timeStamp": "2020-02-14T07:56:39.165Z"
 		},
 		"getTlocPath": {
-			"timeStamp": "2020-01-21T08:23:57.235Z"
+			"timeStamp": "2020-02-14T07:56:39.165Z"
 		},
 		"FAB_init_btn": {
-			"timeStamp": "2020-01-21T08:23:57.242Z"
+			"timeStamp": "2020-02-14T07:56:39.182Z"
 		},
 		"TLoc_closePref": {
-			"timeStamp": "2020-01-21T08:23:57.233Z"
+			"timeStamp": "2020-02-14T07:56:39.173Z"
 		},
 		"Lab_SetCompositeBtn": {
-			"timeStamp": "2020-01-21T08:23:57.226Z"
+			"timeStamp": "2020-02-14T07:56:39.175Z"
 		},
 		"btn_2_onClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.245Z",
+			"timeStamp": "2020-02-14T07:56:39.170Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"Lab_SetBgColorWhite": {
-			"timeStamp": "2020-01-21T08:23:57.220Z",
+			"timeStamp": "2020-02-14T07:56:39.176Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"formulasGetValues": {
-			"timeStamp": "2020-01-21T08:23:57.200Z"
+			"timeStamp": "2020-02-14T07:56:39.166Z"
 		},
 		"HDI_CompositePositionBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.197Z"
+			"timeStamp": "2020-02-14T07:56:39.180Z"
 		},
 		"FAB_refreshCollection": {
-			"timeStamp": "2020-01-21T08:23:57.246Z"
+			"timeStamp": "2020-02-14T07:56:39.181Z"
 		},
 		"btn_5_onClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.243Z",
+			"timeStamp": "2020-02-14T07:56:39.169Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"closeNewNameTip": {
-			"timeStamp": "2020-01-21T08:23:57.225Z"
+			"timeStamp": "2020-02-14T07:56:39.168Z"
 		},
 		"btn_4_onClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.244Z",
+			"timeStamp": "2020-02-14T07:56:39.169Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"Lab_call": {
-			"timeStamp": "2020-01-21T08:23:57.200Z"
+			"timeStamp": "2020-02-14T07:56:39.175Z"
 		},
 		"redrawBtn": {
-			"timeStamp": "2020-01-21T08:23:57.199Z"
+			"timeStamp": "2020-02-14T07:56:39.161Z"
 		},
 		"btn_3_onClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.244Z",
+			"timeStamp": "2020-02-14T07:56:39.169Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"refreshPropertiesStyle": {
-			"timeStamp": "2020-01-21T08:23:57.250Z"
+			"timeStamp": "2020-02-14T07:56:39.159Z"
 		},
 		"HDI_CallbackBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.195Z"
+			"timeStamp": "2020-02-14T07:56:39.180Z"
 		},
 		"TLoc_btn_pref_init": {
-			"timeStamp": "2020-01-21T08:23:57.234Z"
+			"timeStamp": "2020-02-14T07:56:39.173Z"
 		},
 		"calcLuminance": {
-			"timeStamp": "2020-01-21T08:23:57.239Z"
+			"timeStamp": "2020-02-14T07:56:39.168Z"
 		},
 		"addOne_cb": {
-			"timeStamp": "2020-01-21T08:23:57.191Z",
+			"timeStamp": "2020-02-14T07:56:39.171Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"formulasSetValues": {
-			"timeStamp": "2020-01-21T08:23:57.201Z"
+			"timeStamp": "2020-02-14T07:56:39.166Z"
 		},
 		"setPickerColor": {
-			"timeStamp": "2020-01-22T08:09:30.925Z"
+			"timeStamp": "2020-02-14T07:56:39.158Z"
 		},
 		"newTemplateButton": {
-			"timeStamp": "2020-01-21T08:23:57.231Z"
+			"timeStamp": "2020-02-14T07:56:39.162Z"
 		},
 		"AJUI_Tip_getSubFormSize": {
-			"timeStamp": "2020-01-21T08:23:57.223Z",
+			"timeStamp": "2020-02-14T07:56:39.182Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"onClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.194Z",
+			"timeStamp": "2020-02-14T07:56:39.161Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"reloadTemplateList": {
-			"timeStamp": "2020-01-21T08:23:57.238Z"
+			"timeStamp": "2020-02-14T07:56:39.159Z"
 		},
 		"getLuminance": {
-			"timeStamp": "2020-01-21T08:23:57.240Z"
+			"timeStamp": "2020-02-14T07:56:39.165Z"
 		},
 		"loadPropertiesCollections": {
-			"timeStamp": "2020-01-21T08:23:57.199Z"
+			"timeStamp": "2020-02-14T07:56:39.163Z"
 		},
 		"minusOne_cb": {
-			"timeStamp": "2020-01-21T08:23:57.192Z",
+			"timeStamp": "2020-02-14T07:56:39.162Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"HDI_DisableBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.193Z"
+			"timeStamp": "2020-02-14T07:56:39.180Z"
 		},
 		"closeSaveTempTip": {
-			"timeStamp": "2020-01-21T08:23:57.237Z"
+			"timeStamp": "2020-02-14T07:56:39.167Z"
 		},
 		"hexa2dec": {
-			"timeStamp": "2020-01-21T08:23:57.241Z"
+			"timeStamp": "2020-02-14T07:56:39.164Z"
 		},
 		"alertDeleted": {
-			"timeStamp": "2020-01-21T08:23:57.226Z",
+			"timeStamp": "2020-02-14T07:56:39.171Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"Lab_setBgColor_btn": {
-			"timeStamp": "2020-01-21T08:23:57.222Z",
+			"timeStamp": "2020-02-14T07:56:39.174Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"HDI_Focus_btn": {
-			"timeStamp": "2020-01-21T08:23:57.239Z"
+			"timeStamp": "2020-02-14T07:56:39.178Z"
 		},
 		"btn_subform": {
-			"timeStamp": "2020-01-21T08:23:57.232Z"
+			"timeStamp": "2020-02-14T07:56:39.168Z"
 		},
 		"Tip_SaveTempSubform": {
-			"timeStamp": "2020-01-21T08:23:57.236Z"
+			"timeStamp": "2020-02-14T07:56:39.172Z"
 		},
 		"refreshArrayColor": {
-			"timeStamp": "2020-01-21T08:23:57.240Z"
+			"timeStamp": "2020-02-14T07:56:39.160Z"
 		},
 		"TLoc_loadPathSettings": {
-			"timeStamp": "2020-01-21T08:23:57.235Z"
+			"timeStamp": "2020-02-14T07:56:39.172Z"
 		},
 		"tip_bgSelectBgColorOther": {
-			"timeStamp": "2020-01-21T08:23:57.222Z"
+			"timeStamp": "2020-02-14T07:56:39.157Z"
 		},
 		"HDI_FocusBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.238Z"
+			"timeStamp": "2020-02-14T07:56:39.178Z"
 		},
 		"Lab_centerButton": {
-			"timeStamp": "2020-01-21T08:23:57.231Z"
+			"timeStamp": "2020-02-14T07:56:39.175Z"
 		},
 		"HDI_LinkedCompositeBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.198Z"
+			"timeStamp": "2020-02-14T07:56:39.178Z"
 		},
 		"onDoubleClick_cb": {
-			"timeStamp": "2020-01-21T08:23:57.195Z",
+			"timeStamp": "2020-02-14T07:56:39.161Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"HDI_ToggleBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.232Z"
+			"timeStamp": "2020-02-14T07:56:39.176Z"
 		},
 		"HDI_FAB_call": {
-			"timeStamp": "2020-01-21T08:23:57.248Z"
+			"timeStamp": "2020-02-14T07:56:39.179Z"
 		},
 		"bannerProtectRibbon": {
-			"timeStamp": "2020-01-21T08:23:57.230Z"
+			"timeStamp": "2020-02-14T07:56:39.170Z"
 		},
 		"copyPictToFolderTemp": {
-			"timeStamp": "2020-01-21T08:23:57.237Z"
+			"timeStamp": "2020-02-14T07:56:39.167Z"
 		},
 		"Tip_NewButtonName": {
-			"timeStamp": "2020-01-21T08:23:57.224Z"
+			"timeStamp": "2020-02-14T07:56:39.172Z"
 		},
 		"refresh": {
-			"timeStamp": "2020-01-21T08:23:57.203Z"
+			"timeStamp": "2020-02-14T07:56:39.160Z"
 		},
 		"HDI_PictureBtn_call": {
-			"timeStamp": "2020-01-21T08:23:57.196Z"
+			"timeStamp": "2020-02-14T07:56:39.177Z"
 		}
 	}
 }
