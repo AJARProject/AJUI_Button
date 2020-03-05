@@ -62,8 +62,12 @@ Lab :
  - Lab manuals updated
  - Set default value for picker color
  
-V1.3.1 (lab) - GC - 28.02.2020
+(lab) - GC - 28.02.2020
  Lab :
   - Quick save added (Mac : option + clic, Window : alt + clic)
   - The save form selects the folder type of the template and not the default folder for the dropdown list now
   - Updated wiki lab manuals
+
+  v1.3.1 - GI - 05.03.2020
+   - Replace also the stroke when we want to replace the color of a svg picture (before only the fill attribute was modified)
+
