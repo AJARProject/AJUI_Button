@@ -16,7 +16,10 @@ Case of
 		
 	: ($evt=On Clicked:K2:4)
 		
-		Form:C1466.tip_sf_details:=OB Copy:C1225(Form:C1466.templateLocPref)
+		Form:C1466.tip_sf_details.path_global:=Form:C1466.templateLocPref.path_global
+		Form:C1466.tip_sf_details.path_shared:=Form:C1466.templateLocPref.path_shared
+		Form:C1466.tip_sf_details.path_personal:=Form:C1466.templateLocPref.path_personal
+		
 		Form:C1466.tLocTip.Show()
 		Form:C1466.btnTempSettings.Enable(False:C215)
 End case 

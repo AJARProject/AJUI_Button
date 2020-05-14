@@ -31,7 +31,8 @@ Case of
 			Form:C1466.tipRename.Hide()
 			Form:C1466.btnSaveActive:=OBJECT Get enabled:C1079(*;"btnSave")
 			templatesButtonsEnable (False:C215;"btnRename")
-			Form:C1466.tip_sf_details:=New object:C1471("templateName";Form:C1466.btn1.templateName;"rename";True:C214)
+			Form:C1466.tip_sf_details.templateName:=Form:C1466.btn1.templateName
+			Form:C1466.tip_sf_details.rename:=True:C214
 			Form:C1466.tipNewTemplate.TargetName("btnRename")
 			Form:C1466.tipNewTemplate.Show()
 		End if 

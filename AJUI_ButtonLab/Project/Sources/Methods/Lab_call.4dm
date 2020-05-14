@@ -29,6 +29,7 @@ If (Count parameters:C259=0)
 Else 
 	$lab:=loadPropertiesCollections 
 	$lab.templateLocPref:=TLoc_loadPathSettings 
+	$lab.tip_sf_details:=New object:C1471
 	
 	$winRef_l:=Open form window:C675("Lab";Plain form window:K39:10;On the left:K39:2;At the top:K39:5)
 	DIALOG:C40("Lab";$lab)

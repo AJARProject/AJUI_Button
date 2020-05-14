@@ -30,7 +30,9 @@ Case of
 			Form:C1466.tipNew.Hide()
 			Form:C1466.btnSaveActive:=OBJECT Get enabled:C1079(*;"btnSave")
 			templatesButtonsEnable (False:C215;"btnNew")
-			Form:C1466.tip_sf_details:=New object:C1471("templateName";"";"rename";False:C215;"templateLocPref";OB Copy:C1225(Form:C1466.templateLocPref))
+			Form:C1466.tip_sf_details.templateName:=""
+			Form:C1466.tip_sf_details.rename:=False:C215
+			Form:C1466.tip_sf_details.templateLocPref:=OB Copy:C1225(Form:C1466.templateLocPref)
 			Form:C1466.tipNewTemplate.TargetName("btnNew")
 			Form:C1466.tipNewTemplate.Show()  // MI
 			
