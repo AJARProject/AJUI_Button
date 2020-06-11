@@ -41,6 +41,9 @@ alt="AJUI_Button Example" width="480" height="360" border="10" /></a>
 
 1.3.0-Build164  // Tue, 21 Jan 2020 08:21:45 GMT
 
+Minimal 4D Version : 
+ - 18 
+ 
 ### Questions?
 
 If you have any question, you can ask them directly on github or write to info@ajar.ch
