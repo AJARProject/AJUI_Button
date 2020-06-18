@@ -1,4 +1,4 @@
-﻿<!-- AJUI_Button ( ) -> Math class  -->
+﻿<!-- AJUI_Button ( ) -> Button class  -->
 
 # AJUI_Button
 
