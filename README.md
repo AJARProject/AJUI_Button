@@ -39,7 +39,7 @@ alt="AJUI_Button Example" width="480" height="360" border="10" /></a>
 
 ### Version
 
-1.3.0-Build164  // Tue, 21 Jan 2020 08:21:45 GMT
+1.3.2-Build170"  // Fri, 12 Jun 2020 14:44:31 GMT
 
 Minimal 4D Version : 
  - 18 
