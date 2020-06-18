@@ -42,7 +42,8 @@ alt="AJUI_Button Example" width="480" height="360" border="10" /></a>
 1.3.2-Build170"  // Fri, 12 Jun 2020 14:44:31 GMT
 
 Minimal 4D Version : 
- - 18 
+ - 18 (using formula member function)
+ - 18 R3 (using class)
  
 ### Questions?
 
