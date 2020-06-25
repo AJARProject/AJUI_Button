@@ -4,6 +4,10 @@ AJUI Button is a component made for 4D that help you to create and display nice 
 
 A button is created via the language and will be displayed in a picture element in your form. The button is stored in an object that is an instance of a button.
 
+### AJUI components library
+
+[AJUI_Library](https://github.com/AJARProject/AJUI_Library)
+
 ### Documentation
 
 [Wiki AJUI_Button](https://github.com/AJARProject/AJUI_Button/wiki)
