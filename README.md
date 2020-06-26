@@ -13,7 +13,7 @@ A button is created via the language and will be displayed in a picture element 
 [Wiki AJUI_Button](https://github.com/AJARProject/AJUI_Button/wiki)
 
 **Example**
-
+```4d
     Case of
       : (Form event=On Load)
         Form.save_btn:=New AJUI_Button
@@ -36,6 +36,7 @@ A button is created via the language and will be displayed in a picture element 
     End case
 
     Form.save_btn.Draw()
+ ```
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Sop5dR2VQrk
 " target="_blank"><img src="http://img.youtube.com/vi/Sop5dR2VQrk/0.jpg"
