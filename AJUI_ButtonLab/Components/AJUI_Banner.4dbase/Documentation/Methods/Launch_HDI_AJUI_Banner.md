@@ -1,23 +1,25 @@
 ﻿<!-- Launch_HDI_AJUI_Banner ( )  -->
 
-# Launch_HDI_AJUI_Banner
 
-## Parameters
-
- *  none
-
-## Return value
-
-none
 
 ## Description
 
 Launch HDI (How do I) example.
 
-## Example
+```4d
+ Launch_HDI_AJUI_Banner ( )
 
 ```
-Launch_HDI_AJUI_Banner ( )
+
+## Example
+
+```4d
+$evt:=Form event code
+
+Case of 
+	: ($evt=On Clicked)
+    Launch_HDI_AJUI_Banner ( )
+End Case
 
 ```
 
