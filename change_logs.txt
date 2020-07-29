@@ -77,4 +77,5 @@ Lab :
    
   v1.3.3 - GC - 29.07.2020
    - You can use "#" to designate the 4D resources folder in your path when you load a template
+   - The callback won't start anymore if you maintain the click and release outside the button 
    - Updated wiki
