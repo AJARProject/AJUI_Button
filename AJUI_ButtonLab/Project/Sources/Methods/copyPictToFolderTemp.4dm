@@ -113,12 +113,12 @@ If ($focusPath#"") & ($focusPath#$defaultPath) & ($focusPath#$hoverPath) & ($foc
 End if 
 
   //delete old pictures
-ARRAY TEXT:C222($_files;0)
-DOCUMENT LIST:C474($folderTemp;$_files;Absolute path:K24:14)
-For ($i;1;Size of array:C274($_files))
-	If ($_files{$i}#"@.json")
-		If ($_files{$i}#$defaultName) & ($_files{$i}#$hoverName) & ($_files{$i}#$activeName) & ($_files{$i}#$disableName) & ($_files{$i}#$focusName)
-			DELETE DOCUMENT:C159($_files{$i})
-		End if 
-	End if 
-End for 
+  //ARRAY TEXT($_files;0)
+  //DOCUMENT LIST($folderTemp;$_files;Absolute path)
+  //For ($i;1;Size of array($_files))
+  //If ($_files{$i}#"@.json")
+  //If ($_files{$i}#$defaultName) & ($_files{$i}#$hoverName) & ($_files{$i}#$activeName) & ($_files{$i}#$disableName) & ($_files{$i}#$focusName)
+  //DELETE DOCUMENT($_files{$i})
+  //End if 
+  //End if 
+  //End for 

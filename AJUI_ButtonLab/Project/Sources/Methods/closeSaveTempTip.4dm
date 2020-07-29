@@ -30,11 +30,11 @@ If ($1)
 	  //save template
 	  //check picture
 	If (Form:C1466.btn1.PicturePath(AJUI_btn_default)="") & (Form:C1466.btn1.PicturePath(AJUI_btn_hover)="") & (Form:C1466.btn1.PicturePath(AJUI_btn_active)="") & (Form:C1466.btn1.PicturePath(AJUI_btn_disable)="") & (Form:C1466.btn1.PicturePath(AJUI_btn_focus)="")
-		Form:C1466.btn1.Export($templateName;getTlocPath ($icon))
-		$folder:=Folder:C1567(getTlocPath ($icon)+$templateName+Folder separator:K24:12;fk platform path:K87:2)
-		If ($folder.exists)
-			$folder.delete(Delete with contents:K24:24)
-		End if 
+		  //Form.btn1.Export($templateName;getTlocPath ($icon))
+		  //$folder:=Folder(getTlocPath ($icon)+$templateName+Folder separator;fk platform path)
+		  //If ($folder.exists)
+		  //$folder.delete(Delete with contents)
+		  //End if 
 	Else 
 		$folder:=Folder:C1567(Form:C1466.tip_sf_details.currentTemplatePath+$templateName+Folder separator:K24:12;fk platform path:K87:2)
 		If ($folder.exists)

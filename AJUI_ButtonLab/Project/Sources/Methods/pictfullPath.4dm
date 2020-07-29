@@ -30,7 +30,7 @@ If ($pictPath="#@")
 	$pictPath:=Replace string:C233($pictPath;"#";"")
 	$pictPath:=$folderTempPath+$pictPath
 Else   //resources folder case
-	$pictPath:=Get 4D folder:C485(Current resources folder:K5:16)+$pictPath
+	  //$pictPath:=Get 4D folder(Current resources folder)+$pictPath
 End if 
 
 $0:=$pictPath

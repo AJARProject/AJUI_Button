@@ -68,7 +68,7 @@ Case of
 			$resourcePath:=Get 4D folder:C485(Current resources folder:K5:16;*)
 			$doc:=Select document:C905($resourcePath;"*";"Select the picture path";Package open:K24:8+Use sheet window:K24:11)
 			
-			$values_ptr->{$values_ptr->}.value:=Replace string:C233(Replace string:C233(Document;$resourcePath;"");Folder separator:K24:12;"/")
+			$values_ptr->{$values_ptr->}.value:=Replace string:C233(Document;Folder separator:K24:12;"/")
 			
 		Else 
 			  //color properties : launch the color picker

@@ -18,4 +18,4 @@ If (False:C215)
 End if 
 C_TEXT:C284($0)
 
-$0:="AJUI Button Lab 1.3.1 (v18)"
+$0:="AJUI Button Lab 1.3.2 (v18)"
