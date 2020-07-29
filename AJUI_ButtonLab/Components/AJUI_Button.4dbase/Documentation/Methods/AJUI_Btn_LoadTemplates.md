@@ -13,7 +13,7 @@ Utility method to get all JSON files from a folder into a collection. You can pa
 | Parameter | Type | In/Out | Description |
 | --------- | ---- | ------ | ----------- |
 | folderPath | text | in | where to find the template json files |
-| templates | collection | out | content of the template files  |
+| templates | collection | out | template files name  |
 
 ## Example
 
