@@ -13,6 +13,7 @@ A button is created via the language and will be displayed in a picture element 
 [Wiki AJUI_Button](https://github.com/AJARProject/AJUI_Button/wiki)
 
 **Example**
+
 ```4d
     Case of
       : (Form event=On Load)
@@ -36,7 +37,7 @@ A button is created via the language and will be displayed in a picture element 
     End case
 
     Form.save_btn.Draw()
- ```
+```
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Sop5dR2VQrk
 " target="_blank"><img src="http://img.youtube.com/vi/Sop5dR2VQrk/0.jpg"
@@ -44,12 +45,13 @@ alt="AJUI_Button Example" width="480" height="360" border="10" /></a>
 
 ### Version
 
-1.3.3-Build174  // Wed, 29 Jul 2020 12:07:58 GMT
+1.4.0-Build179 // Wed, 05 Aug 2020 09:02:49 GMT
 
-Minimal 4D Version : 
- - 18 (using formula member function)
- - 18 R3 (using class)
- 
+Minimal 4D Version :
+
+- version <= 1.3.2 : 18 (using formula member function)
+- version > 1.3.2 18 R3/4 (using class)
+
 ### Questions?
 
 If you have any question, you can ask them directly on github or write to info@ajar.ch
