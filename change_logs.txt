@@ -1,81 +1,85 @@
 Logs of the work done
 
 v1.0.0 - GC - 16.08.2019 :
-- AJUI Button first version Implemented
-- Button composition available : text, picture, composite
-- States : default, hover, active, disable
-- Callback on click and double click
-- User Manual to check all the features
-- Add an optional object parameter to pass to the callbacks (onClick and onDoubleClick)
-- AJUI Button Lab implemented
+	- AJUI Button first version Implemented
+	- Button composition available : text, picture, composite
+	- States : default, hover, active, disable
+	- Callback on click and double click
+	- User Manual to check all the features
+	- Add an optional object parameter to pass to the callbacks (onClick and onDoubleClick)
+	- AJUI Button Lab implemented
 
 v1.0.0 - GC - 21.08.2019 :
-- Modification Lab :
-	• New templates added (checkbox, switch)
-	• New HDI Toggle button examples
-	• Fix button size (new template tip form)
+	- Modification Lab :
+		• New templates added (checkbox, switch)
+		• New HDI Toggle button examples
+		• Fix button size (new template tip form)
 
 v1.0.0 - GC - 22.08.2019 :
-- Modification Lab :
-	• New feature : add a new Duplicate template button
-	• HDI Toggle buttons :  new switch buttons
-	• New additional templated for switch buttons
+	- Modification Lab :
+		• New feature : add a new Duplicate template button
+		• HDI Toggle buttons :  new switch buttons
+		• New additional templated for switch buttons
 
 v1.0.1 - GC - 27.08.2019 :
-- Modification Lab :
-	• HDI Toggle buttons :  new switch buttons
-	• New additional templated for switch buttons
-- Component
-	• New property : TextMarginHorizontal
-	• Fix : apply active button skin on double click
+	- Modification Lab :
+		• HDI Toggle buttons :  new switch buttons
+		• New additional templated for switch buttons
+	- Component
+		• New property : TextMarginHorizontal
+		• Fix : apply active button skin on double click
 
 V1.0.2 - GI - 19.09.2019
-- Fix an issue when the button is on a subform. The conversion of the mouse coordinate was incorrect when leaving the button after a click.
+	- Fix an issue when the button is on a subform. The conversion of the mouse coordinate was incorrect when leaving the button after a click.
 
 V1.0.4 - MI - 04.10.2019
-- Modification Lab :
-	• HDI Toggle Token button :  new HDI which compare "CheckBox" and "Toggle Token button"
-	• New additional templated for Toggle Token button ON/OFF
+	- Modification Lab :
+		• HDI Toggle Token button :  new HDI which compare "CheckBox" and "Toggle Token button"
+		• New additional templated for Toggle Token button ON/OFF
 
 V1.2.0 - GC - 22.11.2019
-Component :
-- New state "Focus"
-- Two new methods to remove state exceptions
-- Member function name modified :
-  - ColorToReplaceSVG - > ColorToReplace
-  - ReplacingColorSVG - > ReplacingColor
-- Check if the callback exists and ask to create it otherwise
+	Component :
+		- New state "Focus"
+		- Two new methods to remove state exceptions
+		- Member function name modified :
+		- ColorToReplaceSVG - > ColorToReplace
+		- ReplacingColorSVG - > ReplacingColor
+		- Check if the callback exists and ask to create it otherwise
 
-Lab :
-- New file system to save/load the templates
-- Updated to use the new features of the component
+	Lab :
+		- New file system to save/load the templates
+		- Updated to use the new features of the component
 
 V1.3.0 - GC - 20.11.2020
-Component :
- - V18
- - New feature : FAB (floating action button) with/without animation
- - Manuals updated
-Lab :
- - v18
- - listbox properties edited in bold
- - HDI FAB
- - Lab manuals updated
- - Set default value for picker color
- 
+	Component :
+		- V18
+		- New feature : FAB (floating action button) with/without animation
+		- Manuals updated
+	Lab :
+		- v18
+		- listbox properties edited in bold
+		- HDI FAB
+		- Lab manuals updated
+		- Set default value for picker color
+
 (lab) - GC - 28.02.2020
- Lab :
-  - Quick save added (Mac : option + clic, Window : alt + clic)
-  - The save form selects the folder type of the template and not the default folder for the dropdown list now
-  - Updated wiki lab manuals
+	Lab :
+		- Quick save added (Mac : option + clic, Window : alt + clic)
+		- The save form selects the folder type of the template and not the default folder for the dropdown list now
+		- Updated wiki lab manuals
 
-  v1.3.1 - GI - 05.03.2020
-   - Replace also the stroke when we want to replace the color of a svg picture (before only the fill attribute was modified)
+v1.3.1 - GI - 05.03.2020
+	- Replace also the stroke when we want to replace the color of a svg picture (before only the fill attribute was modified)
 
-  v1.3.2 - GC - 08.06.2020
-   - Added Button class
-   - Updated wiki
-   
-  v1.3.3 - GC - 29.07.2020
-   - You can use "#" to designate the 4D resources folder in your path when you load a template
-   - The callback won't start anymore if you maintain the click and release outside the button 
-   - Updated wiki
+v1.3.2 - GC - 08.06.2020
+	- Added Button class
+	- Updated wiki
+
+v1.3.3 - GC - 29.07.2020
+	- You can use "#" to designate the 4D resources folder in your path when you load a template
+	- The callback won't start anymore if you maintain the click and release outside the button 
+	- Updated wiki
+
+v1.4.0
+	- Accept Formula as a parameter for the callbacks
+
