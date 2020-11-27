@@ -45,7 +45,7 @@ alt="AJUI_Button Example" width="480" height="360" border="10" /></a>
 
 ### Version
 
-1.4.0-Build179 // Wed, 05 Aug 2020 09:02:49 GMT
+1.5.0-Build180 // Fri, 27 Nov 2020 11:02:54 GMT
 
 Minimal 4D Version :
 

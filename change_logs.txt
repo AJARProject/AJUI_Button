@@ -77,9 +77,11 @@ v1.3.2 - GC - 08.06.2020
 
 v1.3.3 - GC - 29.07.2020
 	- You can use "#" to designate the 4D resources folder in your path when you load a template
-	- The callback won't start anymore if you maintain the click and release outside the button 
+	- The callback won't start anymore if you maintain the click and release outside the button
 	- Updated wiki
 
 v1.4.0
 	- Accept Formula as a parameter for the callbacks
 
+v1.5.0 - 27.11.2020
+	- Implement the textAlign and padding formula for text button
