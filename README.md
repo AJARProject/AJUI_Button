@@ -1,4 +1,4 @@
-![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/AJARProject/AJUI_Button?include_prereleases) ![GitHub top language](https://img.shields.io/github/languages/top/AJARProject/AJUI_Button)
+[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/AJARProject/AJUI_Button?include_prereleases)](https://github.com/AJARProject/AJUI_Button/releases) ![GitHub top language](https://img.shields.io/github/languages/top/AJARProject/AJUI_Button)
 
 # AJUI_Button
 
