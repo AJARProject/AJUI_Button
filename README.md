@@ -6,7 +6,7 @@
 
 ### !!! BREAKING CHANGES !!!
 
-#### In the new 2.0.0-beta1 some breaking changes have been introduced. All the class functions have been changed. See the documentation (Wiki).
+#### In the new 2.0.0-beta1 some breaking changes have been introduced. All the class functions have been changed. See the documentation [Class Functions](https://github.com/AJARProject/AJUI_Button/wiki/Class-Functions).
 
 ##### For compatibiliy reasons, the old functions have not been changes if you are not using the class.
 
