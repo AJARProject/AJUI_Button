@@ -91,3 +91,6 @@ v2.0.0 - 28.11.2020
 		- Change all the functions to start with lowercase. Some function have been renamed for a more clear and simple usage.
 		- Merge the textAlign and the CompTextAlign to have only one and not 2 properties
 	- Fix issues when importing template, we was also loosing 2 properties in the first level
+
+v2.1.0 - 11.02.2022
+	- Compile for Intel and M1
