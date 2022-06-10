@@ -1,7 +1,14 @@
 [![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/AJARProject/AJUI_Button?include_prereleases)](https://github.com/AJARProject/AJUI_Button/releases) ![GitHub top language](https://img.shields.io/github/languages/top/AJARProject/AJUI_Button)
+![DEPRECATED](https://img.shields.io/badge/-DEPRECATED-red)
 
 # AJUI_Button
 
+## Source published
+This repository will not be used anymore. Please look at [AJUI_Button_sources](https://github.com/AJARProject/AJUI_Button_source).
+
+---
+---
+---
 ## NEW VERSION 2.0.0-BETA1
 
 ### !!! BREAKING CHANGES !!!
